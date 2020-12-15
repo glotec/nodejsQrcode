@@ -1,0 +1,24 @@
+{
+  "name": "nodejsqcode",
+  "version": "1.0.0",
+  "description": "generate qrcode with nodejs",
+  "main": "sorce/index.js",
+  "scripts": {
+    "start": "nodemon source/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glotec/nodejsQrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glotec/nodejsQrcode/issues"
+  },
+  "homepage": "https://github.com/glotec/nodejsQrcode#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "qrcode": "^1.4.4"
+  }
+}
